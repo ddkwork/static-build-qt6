@@ -23,7 +23,7 @@ jobs:
         run: |
           # Clone Qt6 repo
           cd ..
-          git clone https://code.qt.io/qt/qt5.git -b 6.9
+          git clone https://code.qt.io/qt/qt5.git -b 6.6
           cd qt5
           perl init-repository.pl -f --module-subset=qtbase
           #          qttools,qt5compat,qt3d,qtcharts,qtdeclarative,qtimageformats,qtlanguageserver,qtmqtt,qtmultimedia,qtnetworkauth,qtquick3d,qtquicktimeline,qtserialbus,qtserialport,qtshadertools,qtsvg,qtwebchannel,qtwebengine,qtwebsockets,qtwebview
